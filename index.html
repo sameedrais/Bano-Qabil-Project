@@ -1,1 +1,334 @@
-<p>work start</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Sameed - Portfolio</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(40, 40, 105);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 241);
+        }
+
+
+        .left {
+            font-size: 1.4rem;
+            color: blueviolet;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 70px 0;
+        }
+
+        .leftSection {
+
+            width: 34px;
+            font-size: 2.8rem;
+            margin: 150px 0;
+            margin-top: 30%;
+        }
+
+        .firstsection div {
+            width: 30%;
+            margin: 100px;
+            padding: 0;
+        }
+
+        .RightSection img {
+            width: 110%;
+            margin: 80px 0;
+        }
+
+        .purple {
+            color: rgb(155, 94, 211);
+
+        }
+
+        #element {
+            color: rgb(155, 94, 211);
+        }
+
+        .button1,
+        .button1 a {
+            padding: 10px;
+            background-color: rgb(155, 94, 211);
+            margin: 10px; /* Adjusted margin */
+            border: 3px solid white;
+            font-size: 18px;
+            border-radius: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .content {
+            font-size: x-large;
+        }
+
+        #contact {
+            padding: 50px;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contactform {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .inputbox {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            box-sizing: border-box;
+        }
+
+        input:focus + span, textarea:focus + span, input:valid + span, textarea:valid + span {
+            top: -10px;
+            left: 5px;
+            font-size: 12px;
+            color: #333;
+        }
+
+        .op{
+            color: rgb(155, 94, 2011);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footerrights {
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .footer-section {
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        .footer-section h3 {
+            color: #d4af37;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 5px;
+        }
+
+        .footer-section a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #85ff0c;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="left">M. Sameed's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home"> Home</a></li>
+                    <li><a href="#Projects"> Projects</a></li>
+                    <li><a href="#contact"> Contact Me</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="firstsection">
+            <div class="leftSection">
+                Hy, My Name is <h5 class="op">Muhammad Sameed</h5> and I am a
+                Passionate <span id="element"></span>
+                <br><br><br>
+                <a href="resume.pdf" class="button1" target="_blank" download>Download Resume</a>
+                <a href="https://github.com/sameedrais" class="button1" target="_blank">Visit Github</a>
+            </div>
+            <div class="RightSection"><img src="full-stack-developer-image.png" alt="img"></div>
+        </section>
+
+        <section id="contact">
+            <div class="content">
+                <h2>Contact Me</h2>
+                <p>
+                    Thank you for exploring my portfolio! I'm excited to connect with you. Whether you have questions about my
+                    work, want to discuss potential collaborations, or just want to say hello, I'd love to hear from you. Feel
+                    free to use the contact form below or reach out through my social media channels. Your feedback and inquiries
+                    are valuable to me, and I'll do my best to respond promptly.
+                </p>
+            </div>
+        
+            <div class="contactform">
+                <form id="myForm">
+                    <h2>Send Message</h2>
+                    <div class="inputbox">
+                        <input type="text" id="name" placeholder="Enter your name" class="name" required>
+                        
+                    </div>
+                    <div class="inputbox">
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                        
+                    </div>
+                    <div class="inputbox">
+                        <textarea id="message" placeholder="Type your message..." required></textarea>
+                       
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footerrights">
+            <p>&copy; 2023 Sameed's Portfolio. All rights reserved. | www.sameedsportfolio.com</p>
+        </div>
+    
+        <div class="footer">
+            <div class="footer-section">
+                <h3>About Me</h3>
+                <p>Discover more about my journey as a developer and the passion that drives me.</p>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Latest Projects</h3>
+                <ul>
+                    <li><a href="https://sameedrais.github.io/form/" target="_blank">  Project 1</a></li>
+                    <li><a href="https://sameedrais.github.io/Peroidic-Table/" target="_blank">Project 2</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Contact Me</h3>
+                <p>Feel free to reach out if you have any questions or if you'd like to collaborate.</p>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <ul>
+                  
+                    <li><a href="https://www.linkedin.com/in/sameedrais/" target="_blank">LinkedIn</a></li>
+                    <img src="https://img.icons8.com/material-rounded/24/000000/linkedin.png" alt="LinkedIn">
+                    <li><a href="https://github.com/sameedrais" target="_blank">GitHub</a></li>
+                   <img  src="https://img.icons8.com/material-rounded/24/000000/github.png" alt="GitHub">
+                
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer','Full stack Developer '],
+            typeSpeed: 50,
+        });
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    console.log('Name:', document.getElementById('name').value);
+    console.log('Email:', document.getElementById('email').value);
+    console.log('Message:', document.getElementById('message').value);
+    });
+    </script>
+
+</body>
+
+</html>
