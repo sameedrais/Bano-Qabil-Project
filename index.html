@@ -314,6 +314,21 @@
 
     </footer>
 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer','Full stack Developer '],
+            typeSpeed: 50,
+        });
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    console.log('Name:', document.getElementById('name').value);
+    console.log('Email:', document.getElementById('email').value);
+    console.log('Message:', document.getElementById('message').value);
+    });
+    </script>
+
 </body>
 
 </html>
