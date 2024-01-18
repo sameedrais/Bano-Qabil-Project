@@ -104,6 +104,59 @@
             font-size: x-large;
         }
 
+        #projects {
+            background-color: rgb(0, 0, 33);
+            color: rgb(133, 71, 137);
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .project-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .project {
+            width: 45%;
+            margin-bottom: 30px;
+            background-color: rgb(40, 40, 105);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+
+        .project img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .project h3 {
+            color: rgb(155, 94, 211);
+        }
+
+        .project p {
+            font-size: 16px;
+        }
+        .project-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgb(155, 94, 211);
+            color: white;
+            text-decoration: none;
+            border: 2px solid white;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .project-link:hover {
+            background-color: rgb(125, 64, 181);
+        }
+
         #contact {
             padding: 50px;
         }
@@ -237,6 +290,28 @@
                 <a href="https://github.com/sameedrais" class="button1" target="_blank">Visit Github</a>
             </div>
             <div class="RightSection"><img src="full-stack-developer-image.png" alt="img"></div>
+        </section>
+
+        <section id="Projects">
+            <div class="content">
+                <h2>My Projects</h2>
+            </div>
+            <div class="project-container">
+                <div class="project">
+                    <img src="Form.jpg" alt="Project 1">
+                    <h3>Online Form</h3>
+                    <p>
+                        This project showcases my proficiency in HTML and CSS. With a clean and intuitive design, the form seamlessly collects user input, demonstrating my skills in creating responsive and aesthetically pleasing web interfaces. The project emphasizes a thoughtful blend of form validation and visual appeal, providing a seamless experience for users interacting with the online form. Explore the synergy of functionality and design in this showcase of my web development capabilities.</p>
+                        <a href="https://sameedrais.github.io/form/" class="project-link" target="_blank">Project Link</a>
+                </div>
+                <div class="project">
+                    <img src="Periodic table.jpg" alt="Project 2">
+                    <h3>Periodic Table</h3>
+                    <p>
+                        The "Periodic Table" project is a testament to my foundational skills in HTML and CSS. Crafted with a keen eye for detail, this project presents a dynamic and visually engaging representation of the periodic elements. Each element is thoughtfully organized, and the user interface is designed for easy navigation, reflecting my commitment to creating accessible and informative web content. The use of basic HTML structure and CSS styling showcases my ability to blend simplicity with sophistication, resulting in an educational and aesthetically pleasing interactive experience for users exploring the fascinating world of chemistry.</p>
+                        <a href="https://sameedrais.github.io/Peroidic-Table/" class="project-link" target="_blank">Project Link</a>
+                </div>
+            </div>
         </section>
 
         <section id="contact">
